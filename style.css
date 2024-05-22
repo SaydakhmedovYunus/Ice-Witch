@@ -407,6 +407,7 @@ text-align: left;
 
 .last {
     width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     gap: calc(3.82vw + 4.8px);
