@@ -39,6 +39,7 @@ nav {
 }
 @media (max-width:400px) {
     header {
+        
         width: 395px;
         height: 68px;
         align-items: center; 
