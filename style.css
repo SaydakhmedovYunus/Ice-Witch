@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    outline: 2px solid  red;
 }
 header {
     width: 100%;
@@ -39,7 +39,7 @@ nav {
 }
 @media (max-width:400px) {
     header {
-        width: 400px;
+        width: 395px;
         height: 68px;
         align-items: center; 
         display: flex;
@@ -50,11 +50,8 @@ nav {
     a {
         width: 30px;
     }
-    nav{
-        display: none;
-    }
     .menu_bar {
-        width: 400px;
+        width: 395px;
         height: 68px;
         margin-top: 16px;
         padding-top: 20px;
@@ -63,11 +60,15 @@ nav {
         justify-content: space-between;
         background-color: #E1EDE6;
     }
+    nav {
+        display: none;
+    }
     .logo {
         width: 143px;
         height: 35px;
     }
 }
+
 .option {
     width: 30px;
     height: 30px;
@@ -140,7 +141,6 @@ nav {
 
 }
 .navigation {
-    width: calc(69vw + 109.5px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -371,7 +371,6 @@ gap: 20px;
         }
 
     footer{
-        width: 400px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -447,5 +446,5 @@ div a {
 }
 
 @media (max-width:400px) {
-    .new_collection {width: 400px;}
+    .new_collection {width: 395px;}
 }
