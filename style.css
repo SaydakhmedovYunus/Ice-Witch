@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
 
 }
 header {
@@ -38,9 +39,8 @@ nav {
     display: none;
 }
 @media (max-width:400px) {
-    header {
-        
-        width: 395px;
+    header {   
+        width: 100%;
         height: 68px;
         align-items: center; 
         display: flex;
@@ -52,7 +52,7 @@ nav {
         width: 30px;
     }
     .menu_bar {
-        width: 395px;
+        width: 100%;
         height: 68px;
         margin-top: 16px;
         padding-top: 20px;
@@ -366,12 +366,14 @@ gap: 20px;
 }
 @media (max-width:400px) {
     .main_contacts {
+        width: 350px;
         display: flex;
         flex-direction: column;
         gap: 20px;
         }
 
     footer{
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -439,6 +441,7 @@ div a {
 }
 @media (max-width:400px) {
     .main_socials {
+        width: 200px;
         margin-top: 60px;
     }
 }
@@ -447,5 +450,6 @@ div a {
 }
 
 @media (max-width:400px) {
-    .new_collection {width: 395px;}
+    .new_collection {width: 100%;}
+
 }
